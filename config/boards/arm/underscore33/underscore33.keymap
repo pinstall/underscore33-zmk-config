@@ -11,7 +11,7 @@
 / {
         keymap {
                 compatible = "zmk,keymap";
-
+                base_layer {
                         bindings = <
    &kp SQT  &kp CMMA &kp DOT &kp P &kp Y &kp F &kp G  &kp C &kp R &kp L
    &kp A    &kp O    &kp E   &hm LSHFT U &kp I &kp D &hm RSHFT H &kp T &kp N &kp S
