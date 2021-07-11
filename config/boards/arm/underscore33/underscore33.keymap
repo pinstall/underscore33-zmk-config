@@ -33,6 +33,13 @@ behaviors {
         bindings = <&kp BKSP>;
         layers = <0 1>;
     };
+    combo_ent {
+        timeout-ms = <50>;
+        key-positions = <18 19>;
+        bindings = <&kp ENT>;
+        layers = <0 1>;
+
+    };
     combo_tab {
         timeout-ms = <50>;
         key-positions = <0 1>;
