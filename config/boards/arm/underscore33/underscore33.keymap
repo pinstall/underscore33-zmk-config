@@ -60,7 +60,7 @@ behaviors {
 // |  Z  |  X  |  C  |  V  |  B   |  N  |  M   |  ,  |  .  |  /  |
 //             | CTL | ALT |  ENT | SPC | GUI  | CTL |
                         bindings = <
-   &kp QUOTE &kp COMMA &kp DOT &kp P &kp Y   &kp F &kp G  &kp C     &kp R   &kp L
+   &kp SQT &kp COMMA &kp DOT &kp P &kp Y   &kp F &kp G  &kp C     &kp R   &kp L
    &hm LGUI A &hm LALT O &hm LCTRL E &hm LSHFT U &kp I   &kp D &hm RSHFT H  &hm RCTRL T  &hm LALT N  &hm RGUI S
    &kp SEMI &kp Q &kp J &kp K &kp X   &kp B &kp M  &kp W &kp V &kp Z
    &kp LGUI &trans &trans &lt 1 SPC &trans &mo 2
