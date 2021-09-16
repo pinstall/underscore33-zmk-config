@@ -79,7 +79,7 @@ combos {
    &kp SQT &kp COMMA &kp DOT &kp P &kp Y   &kp F &kp G  &kp C     &kp R   &kp L
    &hm LGUI A &hm LALT O &hm LCTRL E &hm LSHFT U &kp I   &kp D &hm RSHFT H  &hm RCTRL T  &hm LALT N  &hm RGUI S
    &kp SEMI &kp Q &kp J &kp K &kp X   &kp B &kp M  &kp W &kp V &kp Z
-   &kp LGUI &trans &spcl 1 SPC &trans &trans &mo 2
+   &kp LCTRL &trans &spcl 1 SPC &trans &trans &mo 2
                         >;
                 };
 
