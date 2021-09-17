@@ -104,7 +104,7 @@ combos {
 // | BT1 | BOOT|     |      |     |      |      |      |      |      |
 //             | CTL | ALT |  ENT | SPC | GUI  | CTL |
                         bindings = <
-   &bt BT_CLR   &reset      &trans  &trans &PSCRN     &trans    &kp PG_DN &kp UP    &kp PG_UP &trans
+   &bt BT_CLR   &reset      &trans  &trans &kp PSCRN  &trans    &kp PG_DN &kp UP    &kp PG_UP &trans
    &bt BT_SEL 0 &kp K_CMENU &trans  &trans &trans     &kp HOME  &kp LEFT  &kp DOWN  &kp RIGHT &kp END
    &bt BT_SEL 1 &bootloader &trans  &trans &trans     &trans    &RSHFT    &trans    &trans    &trans
    &trans   &trans  &trans  &trans  &trans &trans
