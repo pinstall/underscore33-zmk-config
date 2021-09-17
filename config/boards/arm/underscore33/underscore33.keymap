@@ -110,7 +110,5 @@ combos {
    &trans   &trans  &trans  &trans  &trans &trans
                         >;
                 };
-
-
         };
 };
