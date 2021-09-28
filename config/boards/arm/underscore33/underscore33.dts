@@ -8,6 +8,10 @@
 #include <nordic/nrf52840_qiaa.dtsi>
 #include <dt-bindings/zmk/matrix_transform.h>
 
+&kscan0 {
+    debounce-period = <10>;
+};
+
 / {
 	model = "_33BLE";
 	compatible = "underscore33";
