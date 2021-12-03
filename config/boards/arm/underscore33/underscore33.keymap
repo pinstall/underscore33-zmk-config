@@ -66,23 +66,23 @@ behaviors {
 // |  Z  |  X  |  C  |  D  |  V   |  K  |  H   |  ,  |  .  |  /  |
 //             | LGUI(tab) | LSHIFT |  LT2(ENT) | SPC | LT1(BACKSPACE)  | RCTRL(APOSTROPHE) |
                         bindings = <
-   &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SEMICOLON
-   &kp A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E  &kp I  &kp O
-   &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH
-   &hm LGUI TAB &kp LSHFT &lt 2 RET &kp SPC &lt 1 BACKSPACE &hm RCTRL APOSTROPHE
+   &kp Q        &kp W     &kp F     &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SEMICOLON
+   &kp A        &kp R     &kp S     &kp T &kp G   &kp M &kp N  &kp E     &kp I   &kp O
+   &kp Z        &kp X     &kp C     &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH
+                      &hm LGUI TAB &kp LSHFT &lt 2 RET &kp SPC &lt 1 BACKSPACE &hm RCTRL APOSTROPHE
                         >;
                 };
 
                 sym_layer {
 // -----------------------------------------------------------------------------------------
-// |  F1  |  F2  |  F3  |  F4  |  F5  |  F6  |  F7  |  F8  |  F9  |  F10  |
-// |  ESC  |  BT_CLR  |  #  |  $  |  %  |  ^  |  &  |  *  |  F11  |  F12  |
-// |  BT0  |  BT1  |  BT2  |  BT3  |  BT4  |  BRI_DN  |  BRI_UP  |  MUTE  |  Vol-  |  Vol+  |
-//             | CTL | ALT |  ENT | SPC | GUI  | CTL |
+// |  F1  |  F2       |  F3   |  F4   |  F5   |  F6      |  F7      |  F8    |  F9    |  F10  |
+// |  ESC  |  BT_CLR  |  #    |  $    |  %    |  ^       |  &       |  *     |  F11   |  F12  |
+// |  BT0  |  BT1     |  BT2  |  BT3  |  BT4  |  BRI_DN  |  BRI_UP  |  MUTE  |  Vol-  |  Vol+  |
+//                           | Trans | Trans |  Trans | Trans | Trans  | Trans |
                         bindings = <
-   &kp F1    &kp F2    &kp F3    &kp F4      &kp F5      &kp F6    &kp F7    &kp F8    &kp F9     &kp F10
-   &kp ESC  &bt BT_CLR    &kp HASH  &kp DOLLAR  &kp PRCNT   &kp CARET &kp AMPS  &kp STAR  &kp F11  &kp F12
-   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4   &kp C_BRI_DN  &kp C_BRI_UP  &kp C_MUTE &kp C_VOL_DN    &kp C_VOL_UP
+   &kp F1        &kp F2        &kp F3        &kp F4          &kp F5         &kp F6        &kp F7        &kp F8     &kp F9       &kp F10
+   &kp ESC       &bt BT_CLR    &kp HASH      &kp DOLLAR      &kp PRCNT      &kp CARET     &kp AMPS      &kp STAR   &kp F11      &kp F12
+   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4   &kp C_BRI_DN  &kp C_BRI_UP  &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP
    &trans    &trans    &trans    &trans      &trans      &trans
                         >;
                 };
@@ -92,7 +92,7 @@ behaviors {
 // | 1 | 2 |  3  |   =   |   [   |  ]    | PGDN |  UP  | PGUP |   BACKSPACE   |
 // | 4 | 5 |  6  |   -   |  CAPS |  HOME | LEFT | DOWN |RIGHT | DEL  |
 // | 7 | 8 |  9  |   0   |   @   |   &   |  END |  ,   |   .  |  ?   |
-//             | CTL | ALT |  ENT | SPC | GUI  | CTL |
+//             | Trans | Trans |  Trans | Trans | Trans  | Trans |
                         bindings = <
    &kp N1   &kp N2      &kp N3  &kp EQUAL &kp LEFT_BRACKET     &kp RIGHT_BRACKET    &kp PG_DN  &kp UP    &kp PG_UP &kp BACKSPACE
    &kp N4   &kp N5      &kp N6  &kp MINUS &kp CAPS             &kp HOME             &kp LEFT   &kp DOWN  &kp RIGHT &kp DEL
